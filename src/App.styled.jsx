@@ -1,4 +1,9 @@
-@import-normalize; /* bring in normalize.css styles */
+import { css } from '@emotion/react' // connection Global Styles
+import emotionNormalize from 'emotion-normalize'; // connection emotion-normalize
+
+// Global
+export const GlobalStyles = css`
+${emotionNormalize}
 
 body {
   margin: 0;
@@ -13,3 +18,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding:0;
+}
+
+li{
+    list-style: none;
+}
+`;
+
