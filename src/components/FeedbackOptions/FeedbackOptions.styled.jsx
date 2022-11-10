@@ -2,27 +2,31 @@ import styled from '@emotion/styled';
 
 export const OptionsList = styled.ul`
     display: flex;
-    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
     margin-bottom: 30px;
 `;
 
 export const OptionsBtn = styled.button`
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.31;
+    letter-spacing: .04em;
+    min-width: 167px;
+    padding: 10px;
+    border-radius: 22px;
     border: none;
-    outline: none;
-    padding: 10px 15px;
     cursor: pointer;
 
-    background-color: teal;
-    color:#fff;
+    color: #fff;
+    background-color: #ffb8ca;
 
-    font-weight:500;
-    font-family:inherit;
-    
-    box-shadow: 1px 2px 2px 0 rgb(0 0 0 / 0.5);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    transition: box-shadow 250ms linear;
-
-    &:active{
-        box-shadow: 2px 5px 2px 0 rgb(0 0 0 / 0.5);
+    &:hover,
+    &:focus{
+        background-color: #f07f99;
     };
 `;

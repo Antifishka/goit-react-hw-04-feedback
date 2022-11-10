@@ -12,7 +12,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 36px;
+  font-size: 24px;
+  color: #010101;
+  background: #fff5f6;
 }
 
 code {

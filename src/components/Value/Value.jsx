@@ -1,24 +1,25 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import { ValueList, ValueItem, ValueText } from "./Value.styled";
 
 export const Value = ({valueGood, valueNeutral, valueBad, valueTotal, valuePositive = "0"}) => (
-    <ul>
-        <li>
-            <p>Good: {valueGood}</p>
-        </li>
-        <li>
-            <p>Neutral: {valueNeutral}</p>
-        </li>
-        <li>
-            <p>Bad: {valueBad}</p>
-        </li>
-        <li>
-            <p>Total: {valueTotal}</p>
-        </li>
-        <li>
-            <p>Positive feedback: {valuePositive || 0}%</p>
-        </li>
-    </ul>
+    <ValueList>
+        <ValueItem>
+            <ValueText>Good: {valueGood}</ValueText>
+        </ValueItem>
+        <ValueItem>
+            <ValueText>Neutral: {valueNeutral}</ValueText>
+        </ValueItem>
+        <ValueItem>
+            <ValueText>Bad: {valueBad}</ValueText>
+        </ValueItem>
+        <ValueItem>
+            <ValueText>Total: {valueTotal}</ValueText>
+        </ValueItem>
+        <ValueItem>
+            <ValueText>Positive feedback: {valuePositive || 0}%</ValueText>
+        </ValueItem>
+    </ValueList>
 );
 
 Value.propTypes = {
