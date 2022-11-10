@@ -5,8 +5,7 @@ height: 100vh;
 display: flex;
 flex-direction: column;
 justify-content: center;
-margin-left: 100px;
-font-size: 40px;
+align-items: center;
 color: #010101;
 `;
 
