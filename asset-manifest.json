@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/goit-react-hw-02-feedback/static/js/main.cacd1cea.js",
-    "index.html": "/goit-react-hw-02-feedback/index.html",
-    "main.cacd1cea.js.map": "/goit-react-hw-02-feedback/static/js/main.cacd1cea.js.map"
+    "main.js": "/goit-react-hw-04-feedback/static/js/main.cacd1cea.js",
+    "index.html": "/goit-react-hw-04-feedback/index.html",
+    "main.cacd1cea.js.map": "/goit-react-hw-04-feedback/static/js/main.cacd1cea.js.map"
   },
   "entrypoints": [
     "static/js/main.cacd1cea.js"
